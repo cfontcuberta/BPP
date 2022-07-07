@@ -20,5 +20,6 @@ lista = [1,2,3,3,4,5,5,6,7,8,10,12,14,15,17,25]
 # utilizacion de filter para hallar los primos
 
 primo = list(filter(es_primo, lista))
+# imprimir los primos
 print(primo)
 
