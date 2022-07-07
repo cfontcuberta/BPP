@@ -4,9 +4,15 @@
 """
 
 
-"""Funcion que determina l lista de numeros primos
-"""
 def es_primo(n):
+    """Funcion que determina si un numero es primo
+
+    Args:
+        n (int): numero entero que se pasa a la funcion
+
+    Returns:
+        lista:lista de todos los numeros que son primos
+    """
     return n%2 != 0 
 
 # definicion de la lista de numeros
